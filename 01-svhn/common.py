@@ -19,18 +19,19 @@ class Config:
 
     exp_name = os.path.basename(log_dir)
 
-    minibatch_size = 256
+    minibatch_size = 512
     nr_channel = 3
     image_shape = (32, 32)
     nr_class = 10
-    nr_epoch = 60
-    weight_decay = 1e-10
+    nr_epoch = 30
+    weight_decay = 1e-6
 
     show_interval = 100
     snapshot_interval = 2
     test_interval = 1
 
-    use_extra_data = True
+    # use_extra_data = True
+    use_extra_data = False
 
     @property
     def input_shape(self):

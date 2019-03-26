@@ -1,0 +1,6 @@
+model_checkpoint_path: "epoch-30-4290"
+all_model_checkpoint_paths: "epoch-22-3146"
+all_model_checkpoint_paths: "epoch-24-3432"
+all_model_checkpoint_paths: "epoch-26-3718"
+all_model_checkpoint_paths: "epoch-28-4004"
+all_model_checkpoint_paths: "epoch-30-4290"
